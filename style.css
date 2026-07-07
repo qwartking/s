@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    font-family:'Poppins',sans-serif;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    min-height:100vh;
+
+    padding:20px;
+
+    background:linear-gradient(-45deg,#0f172a,#1e293b,#0f766e,#2563eb);
+    background-size:400% 400%;
+    animation:bgAnimation 12s ease infinite;
+
+}
+
+@keyframes bgAnimation{
+
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+
+}
+
+.container{
+
+    width:100%;
+    max-width:430px;
+
+    background:rgba(255,255,255,.08);
+
+    backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.12);
+
+    border-radius:22px;
+
+    padding:35px;
+
+    text-align:center;
+
+    box-shadow:0 20px 40px rgba(0,0,0,.35);
+
+}
+
+.logo{
+
+    width:90px;
+    height:90px;
+
+    object-fit:cover;
+
+    border-radius:50%;
+
+    margin-bottom:15px;
+
+    transition:.4s;
+
+}
+
+.logo:hover{
+
+transform:scale(1.08);
+
+}
+
+h3{
+
+    color:#38bdf8;
+
+    font-size:22px;
+
+    margin-bottom:8px;
+
+}
+
+h1{
+
+    color:#fff;
+
+    font-size:30px;
+
+    margin-bottom:15px;
+
+}
+
+.desc{
+
+    color:#d1d5db;
+
+    font-size:15px;
+
+    line-height:24px;
+
+    margin-bottom:25px;
+
+}
+
+.btn{
+
+    display:block;
+
+    text-decoration:none;
+
+    background:#0ea5e9;
+
+    color:white;
+
+    padding:15px;
+
+    border-radius:12px;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    transition:.3s;
+
+}
+
+.btn:hover{
+
+    background:#0284c7;
+
+    transform:translateY(-3px);
+
+    box-shadow:0 12px 30px rgba(14,165,233,.4);
+
+}
+
+.features{
+
+    margin:28px 0;
+
+}
+
+.features p{
+
+    color:white;
+
+    margin:12px 0;
+
+    font-size:15px;
+
+}
+
+.timer{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    gap:10px;
+
+    margin-top:20px;
+
+}
+
+.timer div{
+
+    flex:1;
+
+    background:rgba(255,255,255,.05);
+
+    border-radius:12px;
+
+    padding:15px 5px;
+
+}
+
+.timer span{
+
+    display:block;
+
+    color:#38bdf8;
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+.timer small{
+
+    color:#cbd5e1;
+
+    font-size:12px;
+
+}
+
+.footer{
+
+    margin-top:25px;
+
+    color:#d1d5db;
+
+    font-size:13px;
+
+}
+
+.disclaimer{
+
+    margin-top:20px;
+
+    padding-top:15px;
+
+    border-top:1px solid rgba(255,255,255,.12);
+
+    text-align:center;
+
+    line-height:18px;
+
+    font-size:11px;
+
+}
+
+.disclaimer strong{
+
+    color:#FFD700;
+
+}
+
+.disclaimer-text{
+
+    color:#d1d5db;
+
+}
+
+@media(max-width:480px){
+
+.container{
+
+padding:25px;
+
+}
+
+.logo{
+
+width:75px;
+height:75px;
+
+}
+
+h3{
+
+font-size:20px;
+
+}
+
+h1{
+
+font-size:24px;
+
+}
+
+.desc{
+
+font-size:14px;
+
+}
+
+.btn{
+
+font-size:16px;
+
+padding:14px;
+
+}
+
+.features p{
+
+font-size:14px;
+
+}
+
+.timer span{
+
+font-size:24px;
+
+}
+
+}
