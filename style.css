@@ -88,11 +88,14 @@ h1{
 
     color:#fff;
 
-    font-size:30px;
+    font-size:15px;
 
-    margin-bottom:15px;
+    margin-bottom:5px;
+     line-height: 1;
 
 }
+
+
 
 .desc{
 
@@ -112,9 +115,9 @@ h1{
 
     text-decoration:none;
 
-    background:#0ea5e9;
+    background:#c8f20c;
 
-    color:white;
+    color:rgb(8, 8, 8);
 
     padding:15px;
 
